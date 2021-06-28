@@ -6,7 +6,7 @@ import {quotes} from './component/Quotes.json';
 
 function App() {
     /*en esta funcion iteramos con un for el array de citas (json) cambiar el orden del array **/
-  const randomArray = (array) => {
+  /* const randomArray = (array) => {
     for (var i = array.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = array[i];
@@ -14,7 +14,7 @@ function App() {
         array[j] = temp;
     }
     return array;
-  }
+  } */
 
 
   const imageList = [
@@ -120,7 +120,7 @@ function App() {
                      "https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/11/shutterstock_603844232.jpg",
                      "https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/11/shutterstock_518526283.jpg",
                      "https://cdn.noticiasdequeretaro.com.mx/wp-content/uploads/2020/01/13155900/Ca%C3%B1on-del-9A.jpg",
-                     
+
                     ];
    
   let quotesRandom = quotes;
