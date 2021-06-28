@@ -1,16 +1,4 @@
 
-header {
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/21/787/668/silkyblue-beach-landscape-photo-of-gray-and-blue-sky-with-top-of-the-mountains-wallpaper-preview.jpg");
-  background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 h1 {
   color: hsla(0, 0%, 0%, .9);
   text-align: center;
