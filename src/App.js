@@ -143,7 +143,7 @@ function App() {
 
   let header = {
     backgroundImage: background,
-    backgroundSize: '100%vh',
+    backgroundSize: 'cover',
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
